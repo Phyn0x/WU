@@ -90,7 +90,7 @@ Cette étape se constitue de plusieurs petites étapes.
 Nous écrivons `le_petit_salon` pour aller à la première étape.
 * le_petit_salon :<br>
     *Bonjour , savez vous en quelle année un promeneur inoccupé qui, sortant du jardin des Tuileries, se serait dirigé sous les arcades de la rue de Rivoli, aurait pu apercevoir sous la porte cochère d'un des plus beaux hôtels du quartier, un grand vieillard à la chevelure et à la moustache blanches ?*<br>
-    En cherchant dans google *La porte cochère...* jusqu'à la fin nous trouvons assez facilement l'année : <details><summary>🚩</summary>```1835```</details>
+    En cherchant dans google *La porte cochère...->...moustache blanche* nous trouvons assez facilement l'année : <details><summary>🚩</summary>```1835```</details>
 * 2
 * 3
 * 4
