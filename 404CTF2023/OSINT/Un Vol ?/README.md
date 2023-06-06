@@ -14,7 +14,7 @@ Il nous est mis à disposition 6 images sur lesquelles nous pouvons observer sou
 
 ## Solution
 
-En observant les différentes photo, nous remarquons qu'il y a un moyen de se localiser sur chacune des photos.
+En observant les différentes photos, nous remarquons qu'il y a un moyen de se localiser sur chacune des photos.
 *  1e photo : 2 bis, rue Orfila
 *  2e photo : 24 rue de Tlemcen (à peu près)
 *  3e photo : L'école *Graine à grandir, école Montessori*
@@ -29,10 +29,8 @@ En plaçant ces points sur Google Maps, nous obtenons ceci :
 </p>
 
 De là, nous pourrions imaginer qu'il faut suivre le chemin emprunté, ou quelque quelque chose comme ça.
-Cependant, si vous relevez votre position à des moments aléatoires plusieurs fois d'affilée, le motif que vous allez retrouver sur une carte va être un cercle autour de chez vous théoriquement.
-> Nous sommes dans ce cas  
-
-Nous pouvons ainsi déterminer par triangulation la position de la cachette d'Arsène Lupin :
+Cependant, dans notre cas, ce n'est pas la méthode adéquate. Nous constatons qu'il semble dessiner un cercle.
+Nous pouvons ainsi deviner la position de la cachette d'Arsène Lupin, qui se situerait assez logiquemment au centre du cercle :
 
 <p align="center">
   <img src="solution.png" alt="solution" width="600">
