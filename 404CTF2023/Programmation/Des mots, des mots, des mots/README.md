@@ -18,25 +18,7 @@
 
 ## Solution
 
-En utilisant la commande `nc challenges.404ctf.fr 31420` nous constatons que nous avons besoin de créer un algorithme qui compte le nombre de rhinocéros et renvoie ce nombre.
 
-Ci-joint le code commenté corresponsdant à la résolution de ce challenge :
-
-```py
-from pwn import *
-
-conn = remote('challenges.404ctf.fr',31420)
-for i in range(100) :                         #Après test, nous avons vu qu'il y avait 100 itérations de l'algo à faire.
-    temp = conn.recvuntil(b">")               #Nous recevons jusqu'à ce caractère, qui correspond à la demande d'input.
-    print(temp.decode())
-    nb = temp.decode().count("~c`°^)")        #Compte des rhinocéros
-    print(nb)
-    conn.sendline(str(nb).encode())           #Envoi du nombre
-    ans = conn.recvline().decode()
-    print(ans)
-result = conn.recvall()                       #Après avoir répondu correctement à toutes les itérations, nous recevons le flag.
-print(result.decode())
-```
 
 ## Flag
 
@@ -44,7 +26,7 @@ print(result.decode())
 <summary>🚩</summary>
 
 ```
-404CTF{4h,_l3s_P0uvo1rs_d3_l'iNforM4tiqu3!}
+404CTF{}
 ```
 </details>
 
