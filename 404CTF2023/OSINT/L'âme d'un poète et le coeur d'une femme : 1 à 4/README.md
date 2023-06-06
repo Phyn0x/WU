@@ -60,7 +60,7 @@ Le seul post existant nous donne l'information recherchée, que nous mettons au 
 
 Nous cherchons donc une invitation, soit un lien discord (l'évènement se déroulant sur discord).
 Cepedant, en cherchant les réseaux classiques nous ne trouverons rien.
-Mais où peut-on donc trouver des informations sur ce **projet** ? ... *bruit d'idée*<br>
+Mais où peut-on donc trouver des informations sur ce **projet** ? ... *\*bruit d'idée\**<br>
 Qui dit projet dirait GitHub ? C'est bien [là](https://github.com/LouiseRevoil/Salon-litteraire-de-Louise-Colet) que nous trouvons ce que nous cherchons.
 
 ## Flag
