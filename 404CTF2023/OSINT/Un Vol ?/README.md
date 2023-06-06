@@ -10,7 +10,7 @@
 
 *Sachez que récemment, Arsène Lupin a été aperçu et pris en filature... Je n'ai malheureusement pas le temps de me pencher sur cette affaire, mais peut-être que vous, vous pourrez trouver le lieu où il cache ses trésors. »*
 
-Il nous est mis à disposition 6 images sur lesquelles on peut observer sous différents angles Arsène Lupin.
+Il nous est mis à disposition 6 images sur lesquelles nous pouvons observer sous différents angles Arsène Lupin.
 
 ## Solution
 
@@ -25,5 +25,25 @@ En observant les différentes photo, nous remarquons qu'il y a un moyen de se lo
 En plaçant ces points sur Google Maps, nous obtenons ceci :
 
 <p align="center">
-  <img src="loeuvre.png" alt="l'oeuvre" width="600">
+  <img src="points.png" alt="points" width="600">
 </p>
+
+De là, nous pourrions imaginer qu'il faut suivre le chemin emprunté, ou quelque quelque chose comme ça.
+Cependant, si vous relevez votre position à des moments aléatoires plusieurs fois d'affilée, le motif que vous allez retrouver sur une carte va être un cercle autour de chez vous théoriquement.
+> Nous sommes dans ce cas  
+
+Nous pouvons ainsi déterminer par triangulation la position de la cachette d'Arsène Lupin :
+
+<p align="center">
+  <img src="solution.png" alt="solution" width="600">
+</p>
+
+## Flag
+
+De là, avec Maps, il est facile de trouver la location de la cachette, qui, mis au format du flag, devient :
+
+<summary>🚩</summary>
+
+```
+404CTF{tombe_de_frederic_chopin}
+```
