@@ -42,6 +42,7 @@ Nous pouvons ainsi déterminer par triangulation la position de la cachette d'Ar
 
 De là, avec Maps, il est facile de trouver la location de la cachette, qui, mis au format du flag, devient :
 
+<details>
 <summary>🚩</summary>
 
 ```
