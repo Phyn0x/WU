@@ -9,7 +9,7 @@
 ## Solution
 
 Quelqu'un qui commence à utiliser les réseaux sociaux, il est logique de chercher sur les réseaux les plus évidents : Facebook et Instagram.
-En cherchant sur Facebook nous trouvons plusieurs comptes avec le nom "Louise Collet" mais nous finissons par trouver [le bon](https://www.facebook.com/profile.php?id=100091643933854).
+En cherchant sur Facebook nous trouvons plusieurs comptes avec le nom "Louise Colet" mais nous finissons par trouver [le bon](https://www.facebook.com/profile.php?id=100091643933854).
 
 ## Flag
 
