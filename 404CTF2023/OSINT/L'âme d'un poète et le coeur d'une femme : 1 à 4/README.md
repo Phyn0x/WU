@@ -99,7 +99,7 @@ Nous écrivons `le_petit_salon` pour aller à la première étape.
      
 * le-fumoir :<br>
     *Où et quand ai-je rendu visite à Mon ami Victor Hugo pour la première fois ?*<br>
-    En cherchant parmi les sites, nous trouvons [ce site](https://gallica.bnf.fr/ark:/12148/bpt6k8572147/f7.item) où on trouve les extraits d'un livre parlant de Hugo et Colet.
+    En cherchant, nous trouvons [ce site](https://gallica.bnf.fr/ark:/12148/bpt6k8572147/f7.item) où on trouve les extraits d'un livre parlant de Hugo et Colet.
     Nous y trouvons ce que nous cherchons : <details><summary>🚩</summary>```Guernesey_1857```</details>
 
 ## Flag
