@@ -88,22 +88,29 @@ Nous trouvons l'invitation tout en bas du README.md :
 Nous avons utilisé le flag précédenant pour [rejoindre le serveur discord](https://discord.gg/NeCgh9ZZqD) de Louise Colet et arrivons maintenant sur la dernière étape de la série de challenge.
 Cette étape se constitue de plusieurs petites étapes.
 Nous écrivons `le_petit_salon` pour aller à la première étape.
-* le_petit_salon :<br>
+* le-petit-salon :<br>
     *Bonjour , savez vous en quelle année un promeneur inoccupé qui, sortant du jardin des Tuileries, se serait dirigé sous les arcades de la rue de Rivoli, aurait pu apercevoir sous la porte cochère d'un des plus beaux hôtels du quartier, un grand vieillard à la chevelure et à la moustache blanches ?*<br>
     En cherchant dans google *La porte cochère...->...moustache blanche* nous trouvons assez facilement l'année : <details><summary>🚩</summary>```1835```</details>
-* 2
-* 3
-* 4
+* le-boudoire :<br>
+    Complétez la suite du poème :<br>
+    *Laisse à l'homme la gloire,*<br>
+    *Les triomphes, le bruit,*<br>
+    En cherchant ces vers en ligne, nous trouvons [ce site](https://www.persee.fr/doc/grif_0770-6081_1975_num_7_1_1458) qui nous donne la suite du poème : <details><summary>🚩</summary>```Pour nous, aimer et croire Au bonheur nous conduit.```</details>
+     
+* le-fumoir :<br>
+    *Où et quand ai-je rendu visite à Mon ami Victor Hugo pour la première fois ?*<br>
+    En cherchant parmi les sites, nous trouvons [ce site](https://gallica.bnf.fr/ark:/12148/bpt6k8572147/f7.item) où on trouve les extraits d'un livre parlant de Hugo et Colet.
+    Nous y trouvons ce que nous cherchons : <details><summary>🚩</summary>```Guernesey_1857```</details>
 
 ## Flag
 
-
+Notre réussite à toutes ces étapes nous donne le flag final dans le salon `la-bibliothèque`.
 
 
 <details>
 <summary>🚩</summary>
 
 ```
-404CTF{https://discord.gg/NeCgh9ZZqD}
+404CTF{j3_su1s_ravie_d_av0ir_fait_v0tre_connaiss4nce} 
 ```
 </details>
