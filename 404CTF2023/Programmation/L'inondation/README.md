@@ -15,20 +15,35 @@ Curieux, vous sortez du café par cette porte et tombez nez à nez avec un jeune
 
 — Voyez-vous, j'ai entendu parler de vos talent dans les nouvelles technologies par le biais d'un ami qui fréquente ce café. J'imagine qu'un ordinateur saura compter bien plus vite que nous deux, ça vous dirait de m'aider ? D'ailleurs, on ne s'est toujours pas présentés. Moi, c'est Béranger. »
 
-*
 
 ## Solution
 
-En utilisant la commande `nc challenges.404ctf.fr 31420` nous constatons que nous avons besoin de créer un algorithme qui compte le nombre de rhinocéros et renvoie ce nombre. 
+En utilisant la commande `nc challenges.404ctf.fr 31420` nous constatons que nous avons besoin de créer un algorithme qui compte le nombre de rhinocéros et renvoie ce nombre.
+
+Ci-joint le code commenté corresponsdant à la résolution de ce challenge :
+
+```py
+from pwn import *
+
+conn = remote('challenges.404ctf.fr',31420)
+for i in range(100) :                         #Après test, nous avons vu qu'il y avait 100 itérations de l'algo à faire.
+    temp = conn.recvuntil(b">")               #Nous recevons jusqu'à ce caractère, qui correspond à la demande d'input.
+    print(temp.decode())
+    nb = temp.decode().count("~c`°^)")        #Compte des rhinocéros
+    print(nb)
+    conn.sendline(str(nb).encode())           #Envoi du nombre
+    ans = conn.recvline().decode()
+    print(ans)
+result = conn.recvall()                       #Après avoir répondu correctement à toutes les itérations, nous recevons le flag.
+print(result.decode())
+```
 
 ## Flag
-
-Nous trouvons le flag dans la section **A propos > Détails sur Louise** :
 
 <details>
 <summary>🚩</summary>
 
 ```
-404CTF{4_mon_ch3r_4mi_v1ctor}
+404CTF{4h,_l3s_P0uvo1rs_d3_l'iNforM4tiqu3!}
 ```
 </details>
