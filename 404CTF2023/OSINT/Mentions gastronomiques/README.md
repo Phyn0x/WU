@@ -32,7 +32,7 @@ En plaçant cette photo dans Paris (nous reconnaissons les quais de Seine, ainsi
   <img src="maps.png" alt="maps" width="600">
 </p>
 
-De là plusieurs options se présentent à nous, seraient soit *La Frégate*, *Le Voltaire* ou bien *Cocorico*.
+De là plusieurs options se présentent à nous : *La Frégate*, *Le Voltaire* ou bien *Cocorico*.
 Les cartes des 2 derniers restaurants ne sont pas celles que nous recherchons, car nous recherchons une carte avec des plats que l'on peut retrouver sur le compte Instagram de Margot Paquet. C'est le raisonnement que j'ai personnellement suivi, en me disant que c'était ce qui allait me permettre de trouver la somme dépensée.
 
 Ainsi il nous reste *La Frégate*, mais la carte est difficile à trouver, les liens sont expirés ou nous redirigent vers un site tiers.
