@@ -31,7 +31,12 @@ def index():
 
 ## Solution
 
-Il n'y a pas de vérification sur notre input, qui va donc être la vulnérabilité que nous allons chercher à exploiter.
+Il n'y a pas de vérification sur notre input, qui va donc être la vulnérabilité que nous allons chercher à exploiter.\
+Nous allons injecter un payload nous permettant de récupérer le contenu de flag.txt.\
+Pour cela, nous devons être capables d'écrire 2 commandes distinctes dans le cmd sur la même ligne, afin de valider la première, puis exécuter notre payload.\
+\
+Ainsi notre payload va prendre la forme : `127.0.0.1 ; cat flag.txt`.\
+De cette manière, l'instruction finale exécutée sera de la forme : `ping -c 3 127.0.0.1 ; cat flag.txt`.
 
 ## Flag
 
@@ -39,6 +44,6 @@ Il n'y a pas de vérification sur notre input, qui va donc être la vulnérabili
 <summary>🚩</summary>
 
 ```
-LITCTF{oOps_sh0uld_h4v3_us3d_str1ct_c0mp4r1sons}
+LITCTF{I_sh0uld_b3_m0r3_c4r3ful}
 ```
 </details>
