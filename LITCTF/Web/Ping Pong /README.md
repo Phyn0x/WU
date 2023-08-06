@@ -3,6 +3,13 @@
 ## Enoncé :
 
 *I made this cool website where you can ping other websites!*\
+
+Le site se présente de la forme :
+
+<p align="center">
+  <img src="photo1.jpg" alt="photo1" width="600">
+</p>
+
 Nous avons à notre disposition un .zip avec les éléments du site, notamment :
 
 ```py
@@ -24,7 +31,7 @@ def index():
 
 ## Solution
 
-
+Il n'y a pas de vérification sur notre input, qui va donc être la vulnérabilité que nous allons chercher à exploiter.
 
 ## Flag
 
