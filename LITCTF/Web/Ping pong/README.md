@@ -2,7 +2,7 @@
 
 ## Enoncé :
 
-*I made this cool website where you can ping other websites!*\
+*I made this cool website where you can ping other websites!*
 
 Le site se présente de la forme :
 
