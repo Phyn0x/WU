@@ -11,7 +11,7 @@
 En naviguant sur cette page, ils nous est sommé d'aller visiter /welcome, ce que nous faisons. Nous arrivons alors sur une page de la sorte :
 
 <p align="center">
-  <img src="photo1.png" alt="photo1" width="600">
+  <img src="photo1.jpg" alt="photo1" width="600">
 </p>
 
 Nous naviguons alors sur la page de login, et rentrons les identifiants **admin - password123**, comme il nous l'est dit dans l'énoncé.\
