@@ -8,7 +8,10 @@
 To solve the lab, craft some HTML that uses a CSRF attack to change the viewer's email address and upload it to your exploit server.
 You can log in to your own account using the following credentials: wiener:peter*
 
-<summary>🚩</summary>
+<details>
+<summary>Hint</summary>
+You cannot register an email address that is already taken by another user. If you change your own email address while testing your exploit, make sure you use a different email address for the final exploit you deliver to the victim.
+</details>
 
 ## Solution
 
